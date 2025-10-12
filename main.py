@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city    = input("Enter your city: ")
+print(f"You are {name}, {age} years old, from {city}.")
+print(name.capitalize())
+print(name.translate({ord('a'): '4', ord('e'): '3', ord('i'): '1', ord('o'): '0'}))
